@@ -1,5 +1,16 @@
 # TipChecker support
 
+## About the app
+
+TipChecker is an iPhone app for checking horse-racing tips against live odds and past form, then seeing how each tip did once the race is run.
+
+- Browse Australian race meetings for the tracks you choose.
+- Log tips and compare them with Betfair odds and Punters Edge form.
+- Results are settled automatically and each tip is scored.
+- Analysis only: TipChecker does not place bets. It needs your own Betfair and Punters Edge accounts.
+
+## Get help
+
 Questions, problems or ideas? Email **[mahoneyclanapps+tipchecker@gmail.com](mailto:mahoneyclanapps+tipchecker@gmail.com)**.
 
 To help us answer quickly, please include:
