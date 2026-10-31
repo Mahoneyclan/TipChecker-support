@@ -13,14 +13,14 @@ TipChecker is an iPhone app for checking horse-racing tips against live odds and
 
 Questions, problems or ideas? Email **[mahoneyclanapps+tipchecker@gmail.com](mailto:mahoneyclanapps+tipchecker@gmail.com)**.
 
-To help us answer quickly, please include:
+If you're reporting a problem, please include:
 
 - what you were doing and what happened
 - your iPhone or iPad model and iOS version
 - the app version (shown in the app's Settings or About screen, or in the App Store)
 - a screenshot, if it helps
 
-We read every message, and usually reply within a few days.
+**Please note:** I make this app as a hobby, in my spare time. I don't offer active support: I read every message, but I can't promise a reply, a fix or a timeline.
 
 ## Privacy
 
