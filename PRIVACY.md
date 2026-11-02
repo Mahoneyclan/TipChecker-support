@@ -2,11 +2,11 @@
 
 Effective date: November 2026
 
-**The short version:** TipChecker keeps everything on your iPhone. The developer runs no server and collects nothing. The app talks only to Betfair and Punters Edge, using your own accounts, to look up odds, form and results.
+**The short version:** TipChecker keeps everything on your iPhone. The developer runs no server and collects nothing. The app talks only to Punters Edge, using your own free key, to look up races, odds, form and results.
 
 ## What data the app holds
 
-- **Your Betfair app key, username and password**, and **your Punters Edge API key and account email**, which you enter in Settings. They are stored encrypted in the iOS Keychain, on this device only, and are never restored to another device.
+- **Your Punters Edge API key and account email**, which you enter in Settings. They are stored encrypted in the iOS Keychain, on this device only, and are never restored to another device.
 - **The tips you log and their results**, and **race history you import**. Stored in the app's own database on your iPhone.
 - **Cached race results** (public race data), kept so the app doesn't have to fetch them again.
 - **App settings**, such as your track selection and your daily Punters Edge request limit.
@@ -17,8 +17,9 @@ The app does not access your location, contacts, photos, camera, microphone or a
 
 The app connects only to:
 
-- **Betfair** (identitysso.betfair.com and api.betfair.com): to sign in to your own Betfair account and read odds. Your Betfair credentials are sent only to Betfair.
-- **Punters Edge** (api.puntersedge.online): to read form and results with your own Punters Edge key.
+- **Punters Edge** (api.puntersedge.online): to read races, odds, form and results with your own Punters Edge key. Your key is sent only to Punters Edge.
+
+Earlier versions also connected to Betfair. The current version no longer does, and deletes any Betfair sign-in details saved by an earlier version the first time it opens.
 
 All connections use HTTPS. TipChecker does not:
 
@@ -27,7 +28,7 @@ All connections use HTTPS. TipChecker does not:
 - track you across apps or websites
 - place bets: it only analyses tips
 
-Your use of Betfair and Punters Edge is covered by their own terms and privacy policies.
+Your use of Punters Edge is covered by its own terms and privacy policy.
 
 ## Backups
 
@@ -50,4 +51,4 @@ If this policy changes materially, the effective date above will be updated.
 
 Questions about this privacy policy? Email [mahoneyclanapps+tipchecker@gmail.com](mailto:mahoneyclanapps+tipchecker@gmail.com).
 
-Not affiliated with Betfair or Punters Edge.
+Not affiliated with Punters Edge or Betfair.
